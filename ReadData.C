@@ -5,7 +5,7 @@ Double_t upperBound = 20.0;
 
 void ReadData(){
 
-	TFile f1("Muon.root", "recreate");
+   TFile f1("Muon.root", "recreate");
 
    ifstream in;
    in.open(Form("%sData.txt", ""));
