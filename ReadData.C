@@ -12,7 +12,7 @@ void ReadData(){
 
    Double_t decayTime, unixTime;
    Int_t nlines = 0;
-   TNtuple ntuple("ntuple1", "Measured Data", "decayTime:unixTime");
+   TNtuple ntuple("mini", "Measured Data", "decayTime:unixTime");
 
    while (1) {
       in >> decayTime >> unixTime;
